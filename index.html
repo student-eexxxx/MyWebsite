@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моя первая страница</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="index">
+<header role="banner">
+    <div class="header-inner">
+        <nav aria-label="Основная навигация">
+            <a href="index.html" aria-current="page">Главная</a>
+            <a href="projects.html">Мои проекты</a>
+        </nav>
+    </div>
+</header>
+<main id="main-content">
+    <section class="hero card">
+        <figure class="hero-photo">
+            <img src="images/my-photo.jpg" alt="Егор Вотеичкин" class="avatar" width="300" height="300">
+        </figure>
+        <div class="hero-text">
+            <h1>Егор Вотеичкин</h1>
+        </div>
+    </section>
+    <section>
+        <h2>Обо мне</h2>
+        <p class="intro">Меня зовут Вотеичкин Егор. Я студент первого курса по направлению «Бизнес-аналитика и системы больших данных». Выбрал эту специальность, потому что увлекаюсь экономикой, люблю работать со статистикой, строить графики на основе больших массивах данных и изучать современные концепции построения макроэкономического пространства.</p>
+        <p>Я люблю читать книги и учебные издания по истории Древнего мира, особенно интересуюсь цивилизациями Ближнего Востока, Древней Греции и Рима.</p>
+    </section>
+    <section>
+        <h2>Мои увлечения</h2>
+        <ul>
+            <li>Учу историю.</li>
+            <li>Стараюсь уделять свободное время на самостоятельное изучение математики, в особенности формальной логики.</li>
+            <li>Изучаю религии всего мира.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Любимый сайт</h2>
+        <p><a class="btn btn--outline" href="https://ru.wikipedia.org" target="_blank" rel="noopener noreferrer">Мой любимый сайт</a></p>
+    </section>
+    <section class="card">
+        <h2>Связаться со мной</h2>
+        <form id="contact-form" action="#" method="post">
+            <label for="username">Имя</label>
+            <input id="username" type="text" name="username" required placeholder="Ваше имя" autocomplete="name">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required placeholder="Ваш email" autocomplete="email">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+            <input id="submit-btn" type="submit" value="Отправить">
+        </form>
+    </section>
+<button id="myBtn">Нажми меня</button>
+<button id="counterBtn" type="button">Счётчик кликов</button>
+<span id="clicks-view">0</span>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
