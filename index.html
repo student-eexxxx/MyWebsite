@@ -56,7 +56,80 @@
 <button id="myBtn">Нажми меня</button>
 <button id="counterBtn" type="button">Счётчик кликов</button>
 <span id="clicks-view">0</span>
+<ul id="items">
+    <li>Первый элемент</li>
+</ul>
+<button
+        type="button"
+        hx-get="fragments/more-items.html"
+hx-target="#items"
+hx-swap="beforeend">
+Загрузить ещё
+</button>
+
+<form hx-post="fragments/new-comment.html"
+          hx-target="#comments"
+          hx-swap="afterbegin">
+    <label>
+        <input name="author" placeholder="Ваше имя" required>
+    </label>
+    <label>
+        <textarea name="text" placeholder="Ваш комментарий" required></textarea>
+    </label>
+    <button>Отправить</button>
+</form>
+
+<div id="comments"></div>
+    <label>
+        <input
+                type="search"
+                name="q"
+                hx-get="/fragments/search-results.html"
+                hx-trigger="keyup changed delay:300ms"
+                hx-target="#results"
+                autocomplete="off"
+                placeholder="Поиск...">
+    </label>
+<div id="results"></div>
+
+<form class="controls"
+      hx-get="fragments/new-message.html"
+      hx-target="#chat-messages"
+      hx-swap="afterbegin"
+      hx-indicator="#send-indicator">
+    <label>
+        <input type="text" name="message" placeholder="Введите сообщение..." required>
+    </label>
+    <button type="submit">Отправить</button>
+    <span id="send-indicator" class="htmx-indicator">Отправка…</span>
+</form>
+
+<div id="chat-messages" class="chat-messages"></div>
+<div class="controls">
+    <button
+            hx-get="fragments/pagination.html"
+            hx-target="#chat-messages"
+            hx-swap="beforeend"
+            hx-indicator="#load-indicator">
+        Загрузить историю
+    </button>
+<span id="load-indicator" class="htmx-indicator">Загрузка…</span>
+</div>
+<div class="controls">
+    <label>
+        <input type="text"
+               name="q"
+               placeholder="Поиск по чату…"
+               hx-get="fragments/search-results.html"
+               hx-target="#chat-messages"
+               hx-swap="innerHTML"
+               hx-indicator="#search-indicator"
+               hx-trigger="keyup changed delay:400ms">
+    </label>
+<span id="search-indicator" class="htmx-indicator">Поиск…</span>
+</div>
 </main>
+<script src="https://unpkg.com/htmx.org@2.0.0"></script>
 <script src="script.js"></script>
 </body>
 </html>

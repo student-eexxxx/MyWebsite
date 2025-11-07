@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f14bae-5c92-49f9-ae69-94190bb3161f" name="Changes" comment="4 лабораторная работа с сайтом-визиткой">
+      <change afterPath="$PROJECT_DIR$/fragments/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/more-items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/new-comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/new-message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/search-results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "student-eexxxx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;student-eexxxx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/student-eexxxx/MyWebsite.git",
-    "accountId": "9669e124-b761-44d1-9586-b0c6fede9143"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/student-eexxxx/MyWebsite.git&quot;,
+    &quot;accountId&quot;: &quot;9669e124-b761-44d1-9586-b0c6fede9143&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -62,7 +69,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,7 +133,13 @@
       <workItem from="1762157232179" duration="567000" />
       <workItem from="1762157861769" duration="58000" />
       <workItem from="1762157941559" duration="437000" />
-      <workItem from="1762158401522" duration="3184000" />
+      <workItem from="1762158401522" duration="6310000" />
+      <workItem from="1762496781104" duration="461000" />
+      <workItem from="1762502312096" duration="421000" />
+      <workItem from="1762502773785" duration="34000" />
+      <workItem from="1762502905728" duration="64000" />
+      <workItem from="1762502990938" duration="32000" />
+      <workItem from="1762530229096" duration="10748000" />
     </task>
     <task id="LOCAL-00001" summary="4 лабораторная работа с сайтом-визиткой">
       <option name="closed" value="true" />
@@ -166,6 +179,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="4 лабораторная работа с сайтом-визиткой" />
     <option name="LAST_COMMIT_MESSAGE" value="4 лабораторная работа с сайтом-визиткой" />
   </component>
