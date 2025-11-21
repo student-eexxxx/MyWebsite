@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f14bae-5c92-49f9-ae69-94190bb3161f" name="Changes" comment="4 лабораторная работа с сайтом-визиткой">
-      <change afterPath="$PROJECT_DIR$/fragments/history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fragments/more-items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fragments/new-comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fragments/new-message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fragments/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fragments/search-results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -44,6 +37,9 @@
     &quot;accountId&quot;: &quot;9669e124-b761-44d1-9586-b0c6fede9143&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -52,27 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.projects.html.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Егор/Desktop/Мой саааайт",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.projects.html.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Егор/Desktop/Мой саааайт&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Егор\Desktop\Мой саааайт" />
@@ -139,7 +135,20 @@
       <workItem from="1762502773785" duration="34000" />
       <workItem from="1762502905728" duration="64000" />
       <workItem from="1762502990938" duration="32000" />
-      <workItem from="1762530229096" duration="10748000" />
+      <workItem from="1762530229096" duration="11238000" />
+      <workItem from="1762541780838" duration="99000" />
+      <workItem from="1762782465311" duration="840000" />
+      <workItem from="1762783333157" duration="1763000" />
+      <workItem from="1762785143407" duration="44000" />
+      <workItem from="1762785213644" duration="45000" />
+      <workItem from="1762785356292" duration="4248000" />
+      <workItem from="1762790034545" duration="133000" />
+      <workItem from="1762790193669" duration="3586000" />
+      <workItem from="1762793921332" duration="394000" />
+      <workItem from="1762799245344" duration="25000" />
+      <workItem from="1763377122746" duration="16000" />
+      <workItem from="1763377179605" duration="34000" />
+      <workItem from="1763729542300" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="4 лабораторная работа с сайтом-визиткой">
       <option name="closed" value="true" />
